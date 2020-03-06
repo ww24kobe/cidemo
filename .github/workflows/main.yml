@@ -37,6 +37,6 @@ jobs:
         ls -al
         who am i
         echo $PATH
-        reboot
+        scp --help
 
 
