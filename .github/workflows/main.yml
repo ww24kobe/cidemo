@@ -33,4 +33,5 @@ jobs:
         echo test, and deploy your project.
         npm -v && node -v && go version && docker -v && php -v  && npm run test
         echo 'hello ci'
+        npm install hexo-cli -g
         hexo -v
