@@ -5,4 +5,10 @@ before_script:
 
 script:
   - npm run test
-  - npm -v && node -v && python -v && php -v && java -v && docker -v && go -v
+  - npm -v 
+  - node -v 
+  - python -v
+  - php -v 
+  - java -v 
+  - docker -v 
+  - go version
