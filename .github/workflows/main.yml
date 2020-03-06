@@ -33,9 +33,6 @@ jobs:
         echo test, and deploy your project.
         npm -v && node -v && go version && docker -v && php -v  && npm run test
         echo 'hello ci'
-        mkdir ~/.npm-global
-        npm config set prefix '~/.npm-global'
-        export PATH=~/.npm-global/bin:$PATH
-        source ~/.profile
         npm install hexo-cli -g
         hexo -v
+        echo 'over'
