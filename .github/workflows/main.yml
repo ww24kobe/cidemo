@@ -33,4 +33,7 @@ jobs:
         echo test, and deploy your project.
         npm -v && node -v && go version && docker -v && php -v  && npm run test
         echo 'hello ci'
-        pwd
+        pwd 
+        ls -l
+        who am i
+
