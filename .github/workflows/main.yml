@@ -31,4 +31,4 @@ jobs:
       run: |
         echo Add other actions to build,
         echo test, and deploy your project.
-        npm -v && node -v && go -v && docker -v && php -v && java -v && npm run test
+        npm -v && node -v && go version && docker -v && php -v && java -v && npm run test
